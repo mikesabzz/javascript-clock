@@ -1,5 +1,5 @@
 html {
-    background-color:black;
+    background-color:white;
     background-size: cover;
     font-family: 'helvetica neue';
     text-align: center;
@@ -14,9 +14,11 @@ html {
     align-items: center;
   }
   .clock {
+    background: url("https://webstockreview.net/images/arms-clipart-clock-1.png");
+    background-size: cover;
     width: 30rem;
     height: 30rem;
-    border: 20px solid white;
+    border: 20px solid black;
     border-radius: 50%;
     margin: 50px auto;
     position: relative;
@@ -47,8 +49,9 @@ html {
     background-color: red;
   }
   .min-hand {
-      background: rgb(135, 236, 135);
+      background: rgb(61, 216, 61);
   }
   .hour-hand {
-      background: white;
+      background: rgb(10, 10, 10);
+      height: 8px;
   }
